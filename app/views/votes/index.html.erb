@@ -16,6 +16,7 @@
   </h3>
   <table class="table table-shopping">
     <thead>
+      <th>排名</th>
       <th>作品</th>
       <th class="text-right">得票总数</th>
       <th class="text-right">投票人数</th>
@@ -23,8 +24,9 @@
       <th class="text-right">VIP票数</th>
     </thead>
     <tbody>
-      <% @votes.each do |vote| %>
+      <% @votes.each_with_index do |vote, index| %>
       <tr>
+        <td><%= index + 1 %></td>
         <td class="td-name"><%= vote.name %></td>
         <td class="td-number"><%= vote.total %></td>
         <td class="td-number"><%= vote.people %></td>
