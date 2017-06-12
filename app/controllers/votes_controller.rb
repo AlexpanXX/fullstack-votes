@@ -9,5 +9,6 @@ class VotesController < ApplicationController
     else
       @votes = Vote.all.most_votes
     end
+    @votes = @votes.page(params[:page]).per_page(10)
   end
 end

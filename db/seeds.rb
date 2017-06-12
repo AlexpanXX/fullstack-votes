@@ -37,7 +37,27 @@ projects = [
   {name: "大绿色:大自然的颜色", total: 368, people: 232, url: "https://fullstack.xinshengdaxue.com/works/570"},
   {name: "晨光布艺", total: 354, people: 138, url: "https://fullstack.xinshengdaxue.com/works/559"},
   {name: "野兽饮食", total: 350, people: 206, url: "https://fullstack.xinshengdaxue.com/works/603"},
-  {name: "羁绊之爪", total: 347, people: 223, url: "https://fullstack.xinshengdaxue.com/works/566"} # 30
+  {name: "羁绊之爪", total: 347, people: 223, url: "https://fullstack.xinshengdaxue.com/works/566"}, # 30
+  {name: "极客生活馆", total: 339, people: 255, url: "https://fullstack.xinshengdaxue.com/works/621"},
+  {name: "Big Kid", total: 324, people: 280, url: "https://fullstack.xinshengdaxue.com/works/671"},
+  {name: "绘生活:漫空间", total: 272, people: 128, url: "https://fullstack.xinshengdaxue.com/works/565"},
+  {name: "聚聚", total: 268, people: 136, url: "https://fullstack.xinshengdaxue.com/works/563"},
+  {name: "SweeTart", total: 255, people: 63, url: "https://fullstack.xinshengdaxue.com/works/560"},
+  {name: "名酒商城", total: 241, people: 133, url: "https://fullstack.xinshengdaxue.com/works/602"},
+  {name: "程爱", total: 226, people: 174, url: "https://fullstack.xinshengdaxue.com/works/632"},
+  {name: "YummyMap", total: 223, people: 159, url: "https://fullstack.xinshengdaxue.com/works/638"},
+  {name: "潜在世界", total: 221, people: 73, url: "https://fullstack.xinshengdaxue.com/works/599"},
+  {name: "乐富支付Mpos", total: 214, people: 70, url: "https://fullstack.xinshengdaxue.com/works/627"}, # 40
+  {name: "非读不可", total: 206, people: 82, url: "https://fullstack.xinshengdaxue.com/works/635"},
+  {name: "禅 食", total: 184, people: 92, url: "https://fullstack.xinshengdaxue.com/works/616"},
+  {name: "七城工作室", total: 182, people: 50, url: "https://fullstack.xinshengdaxue.com/works/590"},
+  {name: "MusicStore", total: 177, people: 81, url: "https://fullstack.xinshengdaxue.com/works/600"},
+  {name: "Wilderness Camp", total: 160, people: 44, url: "https://fullstack.xinshengdaxue.com/works/561"},
+  {name: "真读", total: 149, people: 109, url: "https://fullstack.xinshengdaxue.com/works/614"},
+  {name: "寻踏水的痕迹", total: 148, people: 36, url: "https://fullstack.xinshengdaxue.com/works/620"},
+  {name: "跑过", total: 139, people: 71, url: "https://fullstack.xinshengdaxue.com/works/656"},
+  {name: "Dream House", total: 138, people: 42, url: "https://fullstack.xinshengdaxue.com/works/611"},
+  {name: "米家", total: 137, people: 45, url: "https://fullstack.xinshengdaxue.com/works/613"} #50
 ]
 
 projects.each do |project|
