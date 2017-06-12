@@ -1,0 +1,37 @@
+<div class="page-header">
+  <h3>
+    作品得票
+    <div class="btn-group pull-right">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        排序 <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><%= link_to("最高得票", votes_path(order: "most_votes")) %></li>
+        <li class="divider"></li>
+        <li><%= link_to("最多普通票", votes_path(order: "most_normal_votes")) %></li>
+        <li class="divider"></li>
+        <li><%= link_to("最多VIP票", votes_path(order: "most_vip_votes")) %></li>
+      </ul>
+    </div>
+  </h3>
+  <table class="table table-shopping">
+    <thead>
+      <th>作品</th>
+      <th class="text-right">得票总数</th>
+      <th class="text-right">投票人数</th>
+      <th class="text-right">普通票数</th>
+      <th class="text-right">VIP票数</th>
+    </thead>
+    <tbody>
+      <% @votes.each do |vote| %>
+      <tr>
+        <td class="td-name"><%= vote.name %></td>
+        <td class="td-number"><%= vote.total %></td>
+        <td class="td-number"><%= vote.people %></td>
+        <td class="td-price"><%= render_votes vote.normal_votes %></td>
+        <td class="td-price"><%= render_votes vote.vip_votes %></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
