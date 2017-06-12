@@ -1,24 +1,13 @@
-# README
+# JDstore商店大赛排名
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 介绍
+对比赛网站上的作品得票数据进行了简单处理，分别对得票数，普通用户投票数和VIP投票数进行排名。
 
-Things you may want to cover:
+## 使用方法
+1、bundle install
 
-* Ruby version
+2、rake db:migrate
 
-* System dependencies
+3、rake db:seed
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4、rails server
