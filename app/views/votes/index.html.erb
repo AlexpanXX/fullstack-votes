@@ -27,7 +27,9 @@
       <% @votes.each_with_index do |vote, index| %>
       <tr>
         <td><%= index + 1 %></td>
-        <td class="td-name"><%= vote.name %></td>
+        <td class="td-name">
+          <%= link_to vote.name, vote.url %>
+        </td>
         <td class="td-number"><%= vote.total %></td>
         <td class="td-number"><%= vote.people %></td>
         <td class="td-price"><%= render_votes vote.normal_votes %></td>
